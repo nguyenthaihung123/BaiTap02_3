@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F0EC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="24dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="470dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/top_background2" />
+        <TextView
+            android:text="Create\nAccount"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:textColor="#2A4E82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp">
+            <ImageView
+                android:src="@drawable/name"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:hint="Name"
+                android:padding="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+            <ImageView
+                android:src="@drawable/email"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:hint="Email"
+                android:padding="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+            <ImageView
+                android:src="@drawable/password"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:hint="Password"
+                android:padding="8dp"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/btnSignup"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/btn_arrow2"/>
+        <TextView
+            android:id="@+id/txtGoLogin"
+            android:text="Forgot your password? Recovery it"
+            android:layout_marginTop="16dp"
+            android:textColor="#003399"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
